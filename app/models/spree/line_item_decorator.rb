@@ -1,6 +1,10 @@
+# frozen_string_literal: true
+
 module Spree
-  LineItem.class_eval do
-    include Spree::Versionable
-    has_paper_trail class_name: 'Spree::LineItemVersion'
+  module LineItemDecorator
+	def self.prepended(base)
+		include Spree::Versionable
+    	base.has_paper_trail class_name: 'Spree::LineItemVersion'
+	end
   end
 end

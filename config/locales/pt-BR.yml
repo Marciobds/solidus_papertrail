@@ -1,0 +1,22 @@
+---
+pt-BR:
+  activerecord:
+    models:
+      spree/adjustmentversion:
+        one: Versão de ajuste
+        other: Histórico de Ajustes
+      spree/line_item_version:
+        one: Versão do item de linha
+        other: Histórico do item de linha
+      spree/orderversion:
+        one: Versão do pedido
+        other: Histórico de pedidos
+      spree/paymentversion:
+        one: Versão de Pagamento
+        other: Histórico de pagamento
+      spree/return_authorization_version:
+        one: Versão de autorização de devolução
+        other: Histórico de Autorização de Devolução
+      spree/shipmentversion:
+        one: Versão de Remessa
+        other: Histórico de Remessa

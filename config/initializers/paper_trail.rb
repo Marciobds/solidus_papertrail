@@ -1,2 +1,2 @@
 PaperTrail.config.enabled = true
-PaperTrail.config.track_associations = false
+# PaperTrail.config.track_associations = false
